@@ -4,9 +4,21 @@
   <meta charset="UTF-8">
   <title>Australian Online Museum</title>
   <style>
+    .container {
+        position: relative;
+        text-align: left;
+        font-family:'Courier New', sans-serif;
+        color: white;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
 
     em {
-    font-size:8vw;
+    font-size:7vw;
     }
 
     body {
@@ -60,7 +72,11 @@
   </header>
 
   <main>
-    <em>Welcome to the Australian <br>Online Museum</em>
+        <div class="container">
+        <img src="images/background.png" alt="background" style="width:100%;">
+        <em> <div class="top-left">Welcome to the Australian Online Museum</div> </em>
+        </div>
+
     <a href="#" class="button" >Learn more</a>
     <img src="images/o with removal.png" style="width: 361px;height: 681px;" alt="Right Aligned" align="right" alt="Guan Wei, Yellow Square II" class="artwork">
     <img src="images/o2 with removal.png" style="width: 180px;height: 341px;" alt="Right Aligned" align="right" alt="Guan Wei, Yellow Square II" class="artwork">
@@ -70,3 +86,4 @@
   </main>
 </body>
 </html>
+
